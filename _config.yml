@@ -21,7 +21,6 @@ favicon: favicon.png
 gems:
   - rouge
   - kramdown
-  - jekyll-github-metadata
   - jekyll-sitemap
 
 # Build settings
