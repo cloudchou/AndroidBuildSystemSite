@@ -2,6 +2,7 @@ body {
 	font: 14px/21px Microsoft YaHei, Tahoma, Arial;
 	background-color: #eceef0;
 	color:#444;
+	width: 980px;
 }
 
 a {
@@ -27,11 +28,7 @@ a:active, a:focus {
 	margin: 10px 0px;
 	padding-left: 10px;
 }
-
-#container {
-	width: 980px;
-	margin: 0 auto;
-}
+ 
 
 #header,#footer {
 	clear: both;
