@@ -267,7 +267,7 @@ Back to top button
 	height: 70px;
 	display: block;
 	margin-bottom: 7px;
-	background: #bbb url("/style/images/totop.png") no-repeat;
+	background: #bbb url("/assets/images/totop.png") no-repeat;
 	/* rounded corners */
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
