@@ -286,9 +286,9 @@ function load(settings, root, child, container) {
 	}
 	$.ajax($.extend(true, {
 		url: settings.url,
-		dataType: "json",
+		// dataType: "json",
 		data: {
-			root: root
+			root: body
 		},
 		success: function(response) {
 			child.empty();
