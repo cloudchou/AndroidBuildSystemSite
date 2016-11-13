@@ -286,11 +286,14 @@ function load(settings, root, child, container) {
 	}
 	$.ajax($.extend(true, {
 		url: settings.url,
-		// dataType: "json",
-		data: {
-			root: body
-		},
+		dataType: "html",
+//		data: {
+//			root: body
+//		},
 		success: function(response) {
+            response = response.replace(/(<[\/]*\w+>[\r\n]+){4}/,"");
+            response=response.replace(/<\/body>[\r\n]+<\/html>[\r\n]*/,"")
+            response=JSON.parse(response);
 			child.empty();
 			$.each(response, createNode, [child]);
 			settings=$.extend({},settings,{add:child});
