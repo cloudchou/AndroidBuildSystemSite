@@ -1,11 +1,17 @@
+--- layout: none title: "404" permalink: /404.html ---
 <!DOCTYPE html>
 <html>
-
-<head>
-</head>
+{% include head.html %}
 
 <body>
-    <p>Tester </p>
+    <script type="text/javascript" src="http://www.qq.com/404/search_children.js" charset="utf-8" homePageUrl="http://{{site.website}}" homePageName="回到主页"></script>
+    <script type="text/javascript">
+    $(window).on('load', function() {
+        $('.mod_404 .wrapper .mod_hd .desc a').attr("href", "http://{{site.website}}")
+        $('.mod_404 .wrapper .mod_hd .desc a').text("回到主页")
+
+    });
+    </script>
 </body>
 
 </html>

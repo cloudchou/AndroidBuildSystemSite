@@ -1,0 +1,287 @@
+body {
+	font: 14px/21px Microsoft YaHei, Tahoma, Arial;
+	background-color: #eceef0;
+	color:#444;
+}
+
+a {
+	text-decoration: none;
+	color: #222222;
+	display: inline;
+}
+ 
+a:hover {
+	color: #7AA1B0;
+}
+
+a:active, a:focus {
+	color: #33B5E5;
+}
+
+.widget h3 {
+	border-bottom: 1px solid #E5E5E5;
+	color: #333333;
+	font-size: 18px;
+	text-shadow: 0 2px 0 #EEEEEE;
+	font-weight: 500;
+	margin: 10px 0px;
+	padding-left: 10px;
+}
+
+#container {
+	width: 980px;
+	margin: 0 auto;
+}
+
+#header,#footer {
+	clear: both;
+}
+
+#header {
+	border-bottom: 2px dashed #CCCCCC;
+	line-height: 200%;
+	padding: 1em 1em;
+}
+
+#header h1 {
+	color: #666666;
+	font-size: 32px;
+	text-shadow: 2px 2px 1px #CCCCCC;
+	font-weight: normal;
+	display: inline;
+}
+
+#header h3{
+	display: inline	;
+	font-weight: normal;
+	padding-left: 3em; 
+}
+
+#content {
+	float: left;
+	width: 68%;
+	padding: 1em;
+}
+
+#content h2 {
+	font-weight: 500;
+}
+
+#sidebar {
+	float: right;
+	width: 29%;
+	background-color: #FFFFFF;
+	border-bottom: 2px solid #CCCCCC;
+	box-shadow: 0 1px 2px #CCCCCC;
+	margin-top: 30px;
+}
+
+#variable {
+	height: 500px;
+}
+
+#search {
+	margin: 10px 10px 3px 10px;
+	left: 0;
+	position: relative;
+	right: 0;
+	padding-bottom: 5px;
+}
+
+#search p {
+	display: inline;
+	font-size: 16px;
+}
+
+#s {
+	font-size: 16px;
+	padding: 0 5px;
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+	border: 0 none;
+	border-bottom: 1px solid #CCCCCC;
+	height: 20px;
+	display: inline;
+	width: 150px;
+}
+
+#s:focus {
+	outline: none;
+}
+
+.s_left,.s_right {
+	display: inline;
+	background-color: #CCCCCC;
+	height: 5px;
+	position: absolute;
+	width: 1px;
+	top: 17px;
+}
+
+.s_left {
+	
+}
+
+.s_right {
+	left: 243px;
+}
+
+#variable #list {
+	overflow: auto;
+	height: 430px;
+	border-bottom: 1px solid #CCCCCC;
+	border-top: 1px solid #CCCCCC;
+	outline: none;
+}
+
+#variable ul {
+	list-style-type: none;
+	padding-left: 10px;
+	margin-top: 0px;
+}
+
+#file {
+    margin-bottom: 2px;
+}
+
+#file #mklist_container {
+	overflow: auto;
+	height: 430px;
+	border-bottom: 1px solid #CCCCCC; 
+	outline: none;
+}
+
+#file  h3{ 
+	 
+}
+
+
+ul li a {
+	text-decoration: none;
+	color: #222222;
+	display: inline;
+}
+ 
+ul li a:hover {
+	color: #7AA1B0;
+}
+
+ul li a:active, ul li a:focus {
+	color: #33B5E5;
+}
+
+ul li a {
+	white-space:nowrap;
+} 
+ 
+ul li a .f {
+	font-size: 12px;
+}
+
+
+
+#footer {
+	text-align: center;
+	padding: 1em 0;
+}
+
+.treeview .hover{
+	color: #7AA1B0;
+}
+
+.treeview a:active, .treeview a:focus {
+	color: #33B5E5;
+}
+
+/********参考文档内容的css************/
+
+.file{
+	   
+}
+.file p{
+	border-bottom: 1px solid #CCC;
+	 
+} 
+
+.variable{
+	 
+}
+.variable p{
+	padding-left: 20px;
+	word-wrap:break-word; 
+	overflow:hidden;
+}
+
+.file h3, .variable h3, .function h3, .build_target h3{
+	 margin:0.3em 0px;
+}
+
+.file h3 a, .variable h3 a, .function h3 a, .build_target a{
+	 border-bottom: 1px solid #ccc;
+}
+
+.function{
+	 
+}
+.function p{
+	padding-left: 20px;
+	word-break: break-word;
+}
+
+ 
+.build_target{
+	 
+}
+.build_target p{
+	padding-left: 20px;
+	word-break: break-word;
+}
+
+
+/************************************************************************************/
+/*
+Back to top button 
+*/
+#back-top {
+	position: fixed;
+	bottom: 120px;
+	right: 5px;
+}
+
+#back-top a {
+	display: block;
+	text-align: center;
+	font: 12px/100% Arial, Helvetica, sans-serif;
+	text-transform: capitalize;
+	text-decoration: none;
+	color: #bbb;
+	/* background color transition */
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	transition: 1s;
+}
+
+#back-top a:hover {
+	color: #000;
+} 
+/* arrow icon (span tag) */
+#back-top span {
+	width: 70px;
+	height: 70px;
+	display: block;
+	margin-bottom: 7px;
+	background: #bbb url("/style/images/totop.png") no-repeat;
+	/* rounded corners */
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	/* background color transition */
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	transition: 1s;
+}
+
+#back-top a:hover span {
+	background-color: #444;
+}
+
+ 
